@@ -1,19 +1,8 @@
-const characters = ['Goku', 'Vegeta', 'Trunks'];
-
-// const [goku, vegeta, trunks] = characters;
-const [, , p3] = characters;
-
-console.log(p3);
-
-const returnArr = () => {
+export const returnArr = () => {
   return ['ABC', 123];
 };
 
-const [words, numbers] = returnArr();
-
-console.log(words, numbers);
-
-const useState = (value) => {
+export const usState = (value) => {
   return [
     value,
     () => {
@@ -21,8 +10,3 @@ const useState = (value) => {
     },
   ];
 };
-
-const [name, setName] = useState('Goku');
-console.log(name);
-
-setName();
