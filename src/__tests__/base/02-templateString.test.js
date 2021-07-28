@@ -1,4 +1,5 @@
 import '@testing-library/jest-dom';
+
 import getGreeting from '../../base/02-templateString';
 
 describe('Test in 02-templateString', () => {

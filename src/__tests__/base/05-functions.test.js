@@ -1,4 +1,5 @@
 import '@testing-library/jest-dom';
+
 import { getActiveUser, getUser } from '../../base/05-functions';
 
 describe('Test in 05-functions', () => {
