@@ -6,13 +6,12 @@ const FirstApp = ({ greeting, subtitle }) => {
     <>
       <h1>{greeting}</h1>
       <p>{subtitle}</p>
-      <button>+ 1</button>
     </>
   );
 };
 
 FirstApp.propTypes = {
-  greeting: PropTypes.string,
+  greeting: PropTypes.string.isRequired,
 };
 
 FirstApp.defaultProps = {
