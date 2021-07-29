@@ -18,7 +18,7 @@ describe('Test in <FirstApp />', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('should show the subtitle sent by props', () => {
+  it('should to show the subtitle sent by props', () => {
     const greeting = "Hi i'm Nikola";
     const subtitle = 'Subtitle 😀';
     const wrapper = shallow(
